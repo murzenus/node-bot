@@ -38,7 +38,7 @@ jobs:
       - name: install node
         run: sudo apt-get install nodejs
       - name: mineflayer install
-        run: npm install mineflayer minecraft-protocols
+        run: npm install mineflayer minecraft-protocol
       - name: get bot
         run: wget https://raw.githubusercontent.com/murzenus/bot/main/bot.js
       - name: run bot
