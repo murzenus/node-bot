@@ -32,7 +32,7 @@ jobs:
       - name: update
         run: sudo apt-get update
       - name: upgrade
-        run: sudo apt-get full-ugrade -y
+        run: sudo apt-get full-upgrade -y
       - name: node repo install
         run: curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
       - name: install node
